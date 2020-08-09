@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myTodolist.css">
+</head>
+<body>
+    <div class="container" id="myHeader">
+        <h1>My Todolist </h1>
+        <div id="meshBox">
+            <span onclick="newElement()" class="addBtn">Add</span>
+            <input type="search" name="myText" id="mytext" placeholder="Title">
+            
+        </div>
+    </div>
+    <div id="myulList">
+        <ul id="myUl" class="close">
+            <li>Hit the gym</li>
+            <li class="checked">Pay the bill</li>
+            <li>meet George</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>Organise Office</li>
+        </ul>
+    </div>
+    <script src="myTodolist.js"></script>
+</body>
+</html>

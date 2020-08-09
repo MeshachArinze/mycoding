@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    place-items: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: mediumaquamarine;
+}
+.imageCard{
+    width: 100%;
+    height: 20%;
+    background-color: coral;
+}
+#img{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+#img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 400px;
+    display: block;
+}
+.containerId{
+    width: 100%;
+    margin: 1.2rem 0;
+    display: block;
+}
+.containerId label, .containerEmail label, .containerPsw label{
+    font-size: 1.67rem;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: white;
+}
+.containerId input[type="text"], .containerEmail input[type="email"], .containerPsw input[type="password"]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 0 0 20px;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.containerLogin{
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.containerLogin input[type="submit"]{
+    width: 50%;
+    padding: 10px 30px;
+    font-size: 1.89rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+.checkBox{
+    margin-left: 20px;
+    width: 20%;
+}
+.checkBox input[type="checkbox"]{
+    width: 20%;
+    color: maroon;
+}
